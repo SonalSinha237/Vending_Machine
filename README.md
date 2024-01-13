@@ -25,3 +25,5 @@ FSM is a model used to represent and control the behavior of systems that can ex
 - The number of states and transitions are fixed before the coding. There are total 9 states including the initial state.
 
 ## FSM Diagram of Machine
+
+![vending1](https://github.com/SonalSinha237/Vending_Machine/assets/78365433/b0069323-ae1d-419e-a41d-68b3073243b8)
