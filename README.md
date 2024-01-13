@@ -19,6 +19,9 @@ FSM is a model used to represent and control the behavior of systems that can ex
 - The inputs are fixed as 3 different currency coins (Rs.10, 20 and 50) and price of the product is kept as Rs.40.
 - One coin out of the three should be entered at once.
 - With every positive edge of the clock, the machine reads the input and decides the next state.
+- As we add more coins subsequently, the system transitions to the next stage.
 - The system returns to the initial stage (S_initial) if it reaches state 40 (S_40) or above beacause product's price has already been fulfillesd and there's no point in adding more coins.
 - If any state is having a sum of Rs.40 or more, the product is dispensed. Along with that, a flag is raised in case of change.
 - The number of states and transitions are fixed before the coding. There are total 9 states including the initial state.
+
+## FSM Diagram of Machine
