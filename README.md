@@ -30,6 +30,6 @@ FSM is a model used to represent and control the behavior of systems that can ex
 
 - Notation:
  - S_initial: Initial state
- - S_10: Rs.10
- - S_60: Rs.60 etc.
+  - S_10: Rs.10
+  - S_60: Rs.60 etc.
 - Starting with the initial state (S_initial), the machine moves to the next state depending on the amount added. Eg. if we add Rs.10 to S_initial, it moves to S_10, i.e. we now have Rs.10 in the machine. Now, if we add 20, we move to state S_30. Same goes for other currency coins. We can continue this process until we have reached a minimum of Rs.40.
